@@ -1,0 +1,22 @@
+<?php 
+// echo md5('test');
+
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form method="POST" action="login.php">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
